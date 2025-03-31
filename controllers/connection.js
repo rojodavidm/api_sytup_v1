@@ -11,7 +11,6 @@ var config = {
     }
 };
 
-
 try {
     sqlServer.connect(config, err => {
         if (err) {
