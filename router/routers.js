@@ -8,7 +8,6 @@ const looger = require('./../utils/looger.js');
 
 router.get("/deudas", async (req, res) => {
     try {
-
 /*
 
 {
@@ -26,20 +25,17 @@ router.get("/deudas", async (req, res) => {
 
 
 */
-      const postData = req.rawBody;
-
       // Desestructuración de los parámetros de la consulta
-      const { rut, convenio, codigosesion} = req.query;
+      const { rut, id_consulta_deuda} = req.query;
   
       // Validación de parámetros obligatorios
-      if (!rut || !convenio || !codigosesion) {
-        looger.error("Se reciben datos nulos o vacíos: ", { rut, convenio, codigosesion });
+      if (!rut || !id_consulta_deuda ) {
+        looger.error("Se reciben datos nulos o vacíos: ", { rut, id_consulta_deuda });
         return res.status(400).json({ error: "Faltan parámetros requeridos." });
       }
   
-      looger.info(`Solicitud recibida por Rut: ${rut}, Convenio: ${convenio}, Sesión: ${codigosesion}`);
-      looger.info(`Solicitud XML Recibido ${postData}`);
-  
+      looger.info(`Solicitud recibida por Rut: ${rut}, Convenio: ${id_consulta_deuda}`);
+
       // Configuración de la solicitud HTTPS
       const options = {
         method: 'GET',
