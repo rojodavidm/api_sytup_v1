@@ -5,55 +5,68 @@ const { buffer } = require("stream/consumers");
 //import { getConnection, sql } from "./../router/funciones.js";
 var https = require('follow-redirects').https;
 const looger = require('./../utils/looger.js');
+const jwt = require('jsonwebtoken');
+
+router.post("/generateToken", (req, res) => {
+  let data = {
+      time: Date(),
+      tokenId : 1
+  }
+  const token = jwt.sign(data, 'secret-key');
+  res.json({'secret-key' : token})
+});
+
+
+router.get("/validateToken", (req, res) => {
+  try {
+      const token = req.header("token");
+      const verified = jwt.verify(token, 'secret-key');
+      if(verified){
+          return res.json({'result' : 'Token verified successfully'})
+      }else{
+          return res.json({'result' : 'Token verification failed'})
+      }
+  } catch (error) {
+      console.log(error)
+      return res.json({'result' : 'Something went wrong'})
+  }
+});
 
 router.get("/deudas", async (req, res) => {
     try {
-/*
 
-{
-  "resources": [
-    {
-      "id_intencion_pago": 4540232,
-      "fecha_vencimiento": "2025-01-01",
-      "id_autopista": "79823983324",
-      "id_contrato": "12342345",
-      "id_contrato_rnut": "12342345",
-      "saldo": 34234532
-    }
-  ]
-}
-
-
-*/
+      const SecretToken = process.env.TOKEN_CLIENT;
+      const authHeader = req.headers['authorization']
+   
       // Desestructuración de los parámetros de la consulta
       const { rut, id_consulta_deuda} = req.query;
   
+      
+      const token = jwt.sign( {authHeader}, process.env.TOKEN_CLIENT, { expiresIn: 60});
+     // res.status(200).send({msg:`El nombre es ${authHeader}`, token:`${token}`})
+
+    
       // Validación de parámetros obligatorios
       if (!rut || !id_consulta_deuda ) {
         looger.error("Se reciben datos nulos o vacíos: ", { rut, id_consulta_deuda });
-        return res.status(400).json({ error: "Faltan parámetros requeridos." });
+        return res.status(400).json({"message": "Solicitud inválida"});
       }
   
+
+      if (!token ) {
+        looger.error("Token recibido no es valido ");
+        return res.status(401).json({"message": "Solicitud no autorizada"});
+      }
+
+
+
       looger.info(`Solicitud recibida por Rut: ${rut}, Convenio: ${id_consulta_deuda}`);
-
-      // Configuración de la solicitud HTTPS
-      const options = {
-        method: 'GET',
-        url: 'https://api.example.cl/api/v1/deudas',
-        qs: {rut: '123456789', id_consulta_deuda: '123e4567-e89b-12d3-a456-426614174000'},
-        headers: {Authorization: 'Bearer REPLACE_BEARER_TOKEN'}
-      };
-
-         
-      looger.info(`Respuesta recibida: ${xmlResponse}`);
-  
+      looger.info(`Headres: ${token}`);        
   
       res.json({
-        servicio: "Unired",
+        servicio: "Sytup",
         status: "OK",
-        metodo: "POST",
-        mensaje: tiP,
-        xmlRequ: xmlResponse,
+        metodo: "GET"
       });
     } catch (error) {
       looger.error("Error en la solicitud:", error);
@@ -87,9 +100,6 @@ router.get("/deudas", async (req, res) => {
 
 
 */
-
-
-
       const postData = req.rawBody;
   
       // Expresiones regulares mejoradas (sin signos de interrogación incorrectos)
@@ -106,18 +116,7 @@ router.get("/deudas", async (req, res) => {
       }
   
       looger.info(`Solicitud recibida por Rut: ${rut}, Convenio: ${convenio}, Sesión: ${codigosesion}`);
-      looger.info(`Solicitud XML Recibido ${postData}`);
-  
-      // Configuración de la solicitud HTTPS
-      const options = {
-        method: "POST",
-        hostname: process.env.URL_API_,
-        path: process.env.SERVICE_,
-        headers: {
-          "Content-Type": "application/json",
-        },
-        maxRedirects: 20,
-      };
+
   
       // Llamada HTTPS envuelta en promesa
       const xmlResponse = await makeHttpsRequest(options, postData);

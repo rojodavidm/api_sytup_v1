@@ -40,3 +40,169 @@
 [2025-03-31 12:40:31.258 AM] info Server Iniciado : 5500
 [2025-03-31 12:41:12.853 AM] info Server Iniciado : 5500
 [2025-03-31 12:56:34.677 AM] info Server Iniciado : 5500
+[2025-04-02 01:46:38.816 AM] info Server Iniciado : 5500
+[2025-04-02 01:54:04.767 AM] info Server Iniciado : 5500
+[2025-04-02 01:57:05.520 AM] info Solicitud recibida por Rut: 15888585, Convenio: 225215
+[2025-04-02 01:57:05.522 AM] error Error en la solicitud: xmlResponse is not defined
+[2025-04-02 01:57:22.286 AM] error Se reciben datos nulos o vacíos: 
+[2025-04-02 01:58:48.639 AM] info Server Iniciado : 5500
+[2025-04-02 01:58:50.357 AM] error Se reciben datos nulos o vacíos: 
+[2025-04-02 01:58:54.997 AM] info Solicitud recibida por Rut: 15888585, Convenio: ddfdfgfg
+[2025-04-02 01:58:55.000 AM] error Error en la solicitud: tiP is not defined
+[2025-04-02 01:59:27.939 AM] info Server Iniciado : 5500
+[2025-04-02 01:59:30.859 AM] info Solicitud recibida por Rut: 15888585, Convenio: ddfdfgfg
+[2025-04-02 02:00:11.358 AM] error Se reciben datos nulos o vacíos: 
+[2025-04-02 02:03:41.365 AM] info Server Iniciado : 5500
+[2025-04-02 02:10:37.324 AM] info Solicitud recibida por Rut: 15888585, Convenio: ddfdfgfg
+[2025-04-02 02:11:35.464 AM] info Server Iniciado : 5500
+[2025-04-02 02:11:38.418 AM] info Solicitud recibida por Rut: 15888585, Convenio: ddfdfgfg
+[2025-04-02 02:11:38.419 AM] info Headres: function header(name) {
+  if (!name) {
+    throw new TypeError('name argument is required to req.get');
+  }
+
+  if (typeof name !== 'string') {
+    throw new TypeError('name must be a string to req.get');
+  }
+
+  var lc = name.toLowerCase();
+
+  switch (lc) {
+    case 'referer':
+    case 'referrer':
+      return this.headers.referrer
+        || this.headers.referer;
+    default:
+      return this.headers[lc];
+  }
+}
+[2025-04-02 02:12:17.985 AM] info Server Iniciado : 5500
+[2025-04-02 02:12:20.109 AM] error Error en la solicitud: Authorization is not defined
+[2025-04-02 02:12:28.337 AM] info Server Iniciado : 5500
+[2025-04-02 02:12:30.939 AM] info Solicitud recibida por Rut: 15888585, Convenio: ddfdfgfg
+[2025-04-02 02:12:30.940 AM] info Headres: prueba
+[2025-04-02 02:13:15.981 AM] info Server Iniciado : 5500
+[2025-04-02 02:13:22.345 AM] error Se reciben datos nulos o vacíos: 
+[2025-04-02 02:13:46.827 AM] info Server Iniciado : 5500
+[2025-04-02 02:14:51.747 AM] error Se reciben datos nulos o vacíos: 
+[2025-04-02 02:14:54.170 AM] info Server Iniciado : 5500
+[2025-04-02 02:14:55.675 AM] error Token recibido no es valido 
+[2025-04-02 02:15:06.523 AM] error Token recibido no es valido 
+[2025-04-02 02:15:42.929 AM] info Server Iniciado : 5500
+[2025-04-02 02:15:47.108 AM] error Token recibido no es valido 
+[2025-04-02 02:16:15.820 AM] info Server Iniciado : 5500
+[2025-04-02 02:16:17.441 AM] error Token recibido no es valido 
+[2025-04-02 02:29:58.634 AM] info Server Iniciado : 5500
+[2025-04-02 02:30:00.192 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:30:54.103 AM] info Server Iniciado : 5500
+[2025-04-02 02:30:59.065 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:32:18.460 AM] info Server Iniciado : 5500
+[2025-04-02 02:32:23.575 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:33:33.240 AM] info Server Iniciado : 5500
+[2025-04-02 02:33:38.417 AM] error Error en la solicitud: nombre is not defined
+[2025-04-02 02:33:49.536 AM] error Error en la solicitud: nombre is not defined
+[2025-04-02 02:34:05.243 AM] info Server Iniciado : 5500
+[2025-04-02 02:34:07.212 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:35:52.694 AM] info Server Iniciado : 5500
+[2025-04-02 02:35:57.412 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:36:01.774 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:36:07.420 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:36:21.150 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:36:24.397 AM] info Server Iniciado : 5500
+[2025-04-02 02:36:25.393 AM] error Error en la solicitud: Cannot access 'token_recibido' before initialization
+[2025-04-02 02:36:41.574 AM] info Server Iniciado : 5500
+[2025-04-02 02:36:43.445 AM] error Error en la solicitud: nombre is not defined
+[2025-04-02 02:37:11.946 AM] info Server Iniciado : 5500
+[2025-04-02 02:37:14.185 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:38:08.523 AM] info Server Iniciado : 5500
+[2025-04-02 02:38:11.975 AM] error Error en la solicitud: payload is required
+[2025-04-02 02:38:13.337 AM] error Error en la solicitud: payload is required
+[2025-04-02 02:42:58.215 AM] info Server Iniciado : 5500
+[2025-04-02 02:43:09.899 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:45:01.491 AM] info Server Iniciado : 5500
+[2025-04-02 02:45:12.053 AM] info Server Iniciado : 5500
+[2025-04-02 02:45:19.922 AM] error Error en la solicitud: token is not defined
+[2025-04-02 02:45:32.017 AM] error Error en la solicitud: token is not defined
+[2025-04-02 02:48:14.397 AM] info Server Iniciado : 5500
+[2025-04-02 02:48:15.927 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:50:25.978 AM] info Server Iniciado : 5500
+[2025-04-02 02:50:26.423 AM] error Error en la solicitud: payload is required
+[2025-04-02 02:51:02.976 AM] info Server Iniciado : 5500
+[2025-04-02 02:51:04.609 AM] error Error en la solicitud: payload is required
+[2025-04-02 02:51:19.042 AM] info Server Iniciado : 5500
+[2025-04-02 02:51:21.594 AM] error Error en la solicitud: payload is required
+[2025-04-02 02:52:09.227 AM] info Server Iniciado : 5500
+[2025-04-02 02:52:10.233 AM] error Error en la solicitud: Cannot read properties of undefined (reading 'authorization')
+[2025-04-02 02:52:22.467 AM] info Server Iniciado : 5500
+[2025-04-02 02:52:24.487 AM] error Error en la solicitud: Cannot destructure property 'authorization' of 'req.body' as it is undefined.
+[2025-04-02 02:52:40.920 AM] info Server Iniciado : 5500
+[2025-04-02 02:52:44.381 AM] error Error en la solicitud: Cannot destructure property 'authorization' of 'req.body' as it is undefined.
+[2025-04-02 02:53:01.394 AM] info Server Iniciado : 5500
+[2025-04-02 02:53:04.567 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:55:11.466 AM] info Server Iniciado : 5500
+[2025-04-02 02:55:14.801 AM] info Server Iniciado : 5500
+[2025-04-02 02:55:19.019 AM] error Error en la solicitud: SecretTokeprocess is not defined
+[2025-04-02 02:55:32.282 AM] info Server Iniciado : 5500
+[2025-04-02 02:55:34.099 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:58:19.368 AM] info Server Iniciado : 5500
+[2025-04-02 02:58:22.544 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:59:00.375 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 02:59:10.704 AM] error Error en la solicitud: invalid expiresIn option for string payload
+[2025-04-02 03:00:44.832 AM] info Server Iniciado : 5500
+[2025-04-02 03:00:49.501 AM] error Error en la solicitud: jsonwebtoken is not defined
+[2025-04-02 03:00:53.530 AM] error Error en la solicitud: jsonwebtoken is not defined
+[2025-04-02 03:01:06.743 AM] info Server Iniciado : 5500
+[2025-04-02 03:01:09.507 AM] error Error en la solicitud: name is not defined
+[2025-04-02 03:01:15.108 AM] error Error en la solicitud: name is not defined
+[2025-04-02 03:01:33.381 AM] error Error en la solicitud: name is not defined
+[2025-04-02 03:01:50.698 AM] info Server Iniciado : 5500
+[2025-04-02 03:01:52.299 AM] error Error en la solicitud: secretOrPrivateKey must have a value
+[2025-04-02 03:02:12.687 AM] info Server Iniciado : 5500
+[2025-04-02 03:02:15.144 AM] error Error en la solicitud: token is not defined
+[2025-04-02 03:02:28.573 AM] info Server Iniciado : 5500
+[2025-04-02 03:02:30.795 AM] error Error en la solicitud: token is not defined
+[2025-04-02 03:03:05.393 AM] info Server Iniciado : 5500
+[2025-04-02 03:03:08.723 AM] info Solicitud recibida por Rut: 15888585, Convenio: ddfdfgfg
+[2025-04-02 03:03:48.673 AM] info Server Iniciado : 5500
+[2025-04-02 03:03:52.346 AM] error Error en la solicitud: accessToken is not defined
+[2025-04-02 03:04:06.998 AM] info Server Iniciado : 5500
+[2025-04-02 03:04:08.703 AM] info Solicitud recibida por Rut: 15888585, Convenio: ddfdfgfg
+[2025-04-02 03:04:33.122 AM] info Server Iniciado : 5500
+[2025-04-02 03:04:35.638 AM] info Solicitud recibida por Rut: 15888585, Convenio: ddfdfgfg
+[2025-04-02 03:04:57.107 AM] info Server Iniciado : 5500
+[2025-04-02 03:04:59.168 AM] info Solicitud recibida por Rut: 15888585, Convenio: ddfdfgfg
+[2025-04-02 03:04:59.168 AM] info Headres: undefined
+[2025-04-02 03:05:24.851 AM] info Server Iniciado : 5500
+[2025-04-02 03:05:26.526 AM] error Error en la solicitud: Cannot destructure property 'authHeader' of 'req.headers.authorization' as it is undefined.
+[2025-04-02 03:05:56.306 AM] error Error en la solicitud: Cannot destructure property 'authHeader' of 'req.headers.authorization' as it is undefined.
+[2025-04-02 03:08:02.256 AM] info Server Iniciado : 5500
+[2025-04-02 03:08:10.058 AM] error Se reciben datos nulos o vacíos: 
+[2025-04-02 03:08:14.057 AM] error Se reciben datos nulos o vacíos: 
+[2025-04-02 03:08:36.301 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 03:08:36.302 AM] info Headres: undefined
+[2025-04-02 03:09:12.088 AM] info Server Iniciado : 5500
+[2025-04-02 03:09:13.901 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 03:09:13.902 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDM1NzQxNTMsImV4cCI6MTc0MzU3Nzc1M30.KRKN4tPIyxh-D_PpDkUftDAzIbdNIK9gMqCC3x-ldP8
+[2025-04-02 03:11:36.280 AM] info Server Iniciado : 5500
+[2025-04-02 03:11:37.937 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 03:11:37.938 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDM1NzQyOTcsImV4cCI6MTc0MzU3NDM1N30.076TeNo77QqQ49nc5LeW5klcu5eg6ifb288-b0XnZFI
+[2025-04-02 03:12:34.407 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 03:12:34.408 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDM1NzQzNTQsImV4cCI6MTc0MzU3NDQxNH0.6wUbrUylM8wiDILS_bQig3s0a4figanwKQCbByPOARk
+[2025-04-02 03:13:14.494 AM] info Server Iniciado : 5500
+[2025-04-02 03:20:00.230 AM] info Ruta no ecnontrada. GET
+[2025-04-02 03:20:10.877 AM] info Ruta no ecnontrada. POST
+[2025-04-02 03:20:44.759 AM] info Server Iniciado : 5500
+[2025-04-02 03:22:03.548 AM] info Server Iniciado : 5500
+[2025-04-02 03:22:51.095 AM] info Server Iniciado : 5500
+[2025-04-02 03:23:37.239 AM] info Server Iniciado : 5500
+[2025-04-02 03:24:42.412 AM] info Server Iniciado : 5500
+[2025-04-02 03:24:57.391 AM] info Server Iniciado : 5500
+[2025-04-02 03:27:14.621 AM] info Server Iniciado : 5500
+[2025-04-02 03:29:10.447 AM] info Server Iniciado : 5500
+[2025-04-02 03:29:45.127 AM] info Server Iniciado : 5500
+[2025-04-02 03:32:18.278 AM] info Server Iniciado : 5500
+[2025-04-02 03:33:04.191 AM] info Server Iniciado : 5500
+[2025-04-02 03:34:52.128 AM] info Server Iniciado : 5500
+[2025-04-02 03:36:17.266 AM] info Server Iniciado : 5500
+[2025-04-02 03:38:46.915 AM] info Server Iniciado : 5500
+[2025-04-02 03:39:14.469 AM] info Server Iniciado : 5500
