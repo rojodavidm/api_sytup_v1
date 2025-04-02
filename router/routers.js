@@ -20,11 +20,24 @@ router.post("/generateToken", (req, res) => {
 router.get("/validateToken", (req, res) => {
   try {
       const token = req.header("token");
-      const verified = jwt.verify(token, 'secret-key');
+      const verified = jwt.verify(token,  process.env.TOKEN_CLIENT);
       if(verified){
-          return res.json({'result' : 'Token verified successfully'})
+        res.json ({
+          "resources": [
+            {
+              "id_intencion_pago": 4540232,
+              "fecha_vencimiento": "2025-01-01",
+              "id_autopista": "79823983324",
+              "id_contrato": "12342345",
+              "id_contrato_rnut": "12342345",
+              "saldo": 34234532
+            }
+          ]
+        })
+  //        return res.json({'result' : 'Token verified successfully'})
       }else{
           return res.json({'result' : 'Token verification failed'})
+      
       }
   } catch (error) {
       console.log(error)
@@ -42,9 +55,10 @@ router.get("/deudas", async (req, res) => {
       const { rut, id_consulta_deuda} = req.query;
   
       
-      const token = jwt.sign( {authHeader}, process.env.TOKEN_CLIENT, { expiresIn: 60});
+     // const token = jwt.sign( {authHeader}, process.env.TOKEN_CLIENT, { expiresIn: 60});
+      const token = jwt.sign({authHeader}, process.env.TOKEN_CLIENT, { expiresIn: '2m' });
      // res.status(200).send({msg:`El nombre es ${authHeader}`, token:`${token}`})
-
+      looger.info(`Token : ${token}`);
     
       // Validación de parámetros obligatorios
       if (!rut || !id_consulta_deuda ) {

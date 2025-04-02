@@ -206,3 +206,49 @@
 [2025-04-02 03:36:17.266 AM] info Server Iniciado : 5500
 [2025-04-02 03:38:46.915 AM] info Server Iniciado : 5500
 [2025-04-02 03:39:14.469 AM] info Server Iniciado : 5500
+[2025-04-02 04:03:17.072 AM] info Server Iniciado : 5500
+[2025-04-02 04:03:46.116 AM] error Error en la solicitud: payload is required
+[2025-04-02 04:04:04.653 AM] info Server Iniciado : 5500
+[2025-04-02 04:04:07.146 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:04:07.146 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDM1Nzc0NDcsImV4cCI6MTc0MzU4MTA0N30.TZ01euYvOd-SGq_XmyMpcxS2adhHmUzFv_VEgKM-BGg
+[2025-04-02 04:05:43.583 AM] info Server Iniciado : 5500
+[2025-04-02 04:05:48.215 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:05:48.216 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InRpbWUiOiJXZWQgQXByIDAyIDIwMjUgMDQ6MDU6NDggR01ULTAzMDAgKGhvcmEgZGUgdmVyYW5vIGRlIENoaWxlKSJ9LCJpYXQiOjE3NDM1Nzc1NDgsImV4cCI6MTc0MzU4MTE0OH0.8zKoGlzil6SBeWmSoz0qhjeUddC69xmUmVfAyDduoAU
+[2025-04-02 04:15:07.971 AM] info Server Iniciado : 5500
+[2025-04-02 04:15:15.545 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:15:15.546 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDM1NzgxMTUsImV4cCI6MTc0MzU4MTcxNX0.vooeYVpQbth8SLn0uK6LyRrigysK0f9gsdRjvqwntxA
+[2025-04-02 04:16:02.382 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:16:02.382 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIiwiaWF0IjoxNzQzNTc4MTYyLCJleHAiOjE3NDM1ODE3NjJ9.XcYTVlIxI083rAaHxwW89ZI7BMR5dYrXespgByyDjbk
+[2025-04-02 04:17:29.580 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:17:29.581 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSldUIiwiaWF0IjoxNzQzNTc4MjQ5LCJleHAiOjE3NDM1ODE4NDl9.LC_b4yTn_3xYKVlfLzih8neytR98zBpUBZYJ9f5fN-o
+[2025-04-02 04:20:03.827 AM] info Server Iniciado : 5500
+[2025-04-02 04:20:41.981 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:20:41.982 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSiIsImlhdCI6MTc0MzU3ODQ0MSwiZXhwIjoxNzQzNTc4NTYxfQ.F6j8jKnjl9ey25dfw_aP72eTNWporD8sAcy39cySzLA
+[2025-04-02 04:23:08.961 AM] info Server Iniciado : 5500
+[2025-04-02 04:26:02.534 AM] info Server Iniciado : 5500
+[2025-04-02 04:27:21.424 AM] info Server Iniciado : 5500
+[2025-04-02 04:30:01.772 AM] info Server Iniciado : 5500
+[2025-04-02 04:30:53.388 AM] info Server Iniciado : 5500
+[2025-04-02 04:30:53.834 AM] info Server Iniciado : 5500
+[2025-04-02 04:31:46.622 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:31:46.623 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSiIsImlhdCI6MTc0MzU3OTEwNiwiZXhwIjoxNzQzNTc5MjI2fQ.95ejFMLTN81ITHoySuBBDElbd8rXoeSLTnqYA-UsA7U
+[2025-04-02 04:35:15.055 AM] info Server Iniciado : 5500
+[2025-04-02 04:37:02.495 AM] info Server Iniciado : 5500
+[2025-04-02 04:37:03.677 AM] info Server Iniciado : 5500
+[2025-04-02 04:37:12.415 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:37:12.415 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSiIsImlhdCI6MTc0MzU3OTQzMiwiZXhwIjoxNzQzNTc5NTUyfQ.hICtXf4ckgH75MZFWrScQIhH_YHjomb7XfLHU3W5IA0
+[2025-04-02 04:37:38.372 AM] info Server Iniciado : 5500
+[2025-04-02 04:39:17.096 AM] info Server Iniciado : 5500
+[2025-04-02 04:39:51.161 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:39:51.162 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSiIsImlhdCI6MTc0MzU3OTU5MSwiZXhwIjoxNzQzNTc5NzExfQ.lyD6eWIWdNDC80HaNe72k3e2nWVReEMzi3zkUHLYEmY
+[2025-04-02 04:41:41.409 AM] info Server Iniciado : 5500
+[2025-04-02 04:42:06.334 AM] info Token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSiIsImlhdCI6MTc0MzU3OTcyNiwiZXhwIjoxNzQzNTc5ODQ2fQ.f63Hoq-Z8NZLt2rKbSkvUcVlInPrPVLjO09e-e4MMn0
+[2025-04-02 04:42:06.334 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:42:06.335 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSiIsImlhdCI6MTc0MzU3OTcyNiwiZXhwIjoxNzQzNTc5ODQ2fQ.f63Hoq-Z8NZLt2rKbSkvUcVlInPrPVLjO09e-e4MMn0
+[2025-04-02 04:42:21.808 AM] info Token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSiIsImlhdCI6MTc0MzU3OTc0MSwiZXhwIjoxNzQzNTc5ODYxfQ.Q3mqlSgJghGyofbNSJ-GYXkf5cnf9LoLwS1i2IAYmIY
+[2025-04-02 04:42:21.809 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:42:21.810 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSiIsImlhdCI6MTc0MzU3OTc0MSwiZXhwIjoxNzQzNTc5ODYxfQ.Q3mqlSgJghGyofbNSJ-GYXkf5cnf9LoLwS1i2IAYmIY
+[2025-04-02 04:42:23.854 AM] info Token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSiIsImlhdCI6MTc0MzU3OTc0MywiZXhwIjoxNzQzNTc5ODYzfQ.OY5jpcLDlwjpMBMgp7DnneBZcXG8bwk6mrYRzzaPbQY
+[2025-04-02 04:42:23.855 AM] info Solicitud recibida por Rut: 15888585, Convenio: dfg7h4 dfhjfg554vc
+[2025-04-02 04:42:23.855 AM] info Headres: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoSGVhZGVyIjoiUFJVRUJBIGVzIHVuYSBwcnVlYmEgZGUgSiIsImlhdCI6MTc0MzU3OTc0MywiZXhwIjoxNzQzNTc5ODYzfQ.OY5jpcLDlwjpMBMgp7DnneBZcXG8bwk6mrYRzzaPbQY
+[2025-04-02 04:42:52.721 AM] info Server Iniciado : 5500
